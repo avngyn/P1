@@ -1,0 +1,11 @@
+﻿  p1.cpp
+  LINK : c:\users\anh viet nguyen\documents\visual studio 2015\Projects\P1\Debug\P1.pyd not found or not built by the last incremental link; performing full link
+     Creating library c:\users\anh viet nguyen\documents\visual studio 2015\Projects\P1\Debug\P1.lib and object c:\users\anh viet nguyen\documents\visual studio 2015\Projects\P1\Debug\P1.exp
+p1.obj : error LNK2019: unresolved external symbol __imp__PyArg_ParseTuple referenced in function "struct _object * __cdecl Initialize(struct _object *,struct _object *)" (?Initialize@@YAPAU_object@@PAU1@0@Z)
+p1.obj : error LNK2019: unresolved external symbol __imp__PyModule_Create2TraceRefs referenced in function _PyInit_p1
+p1.obj : error LNK2001: unresolved external symbol __imp___Py_RefTotal
+p1.obj : error LNK2001: unresolved external symbol __imp___Py_NoneStruct
+p1.obj : error LNK2001: unresolved external symbol __imp___Py_FalseStruct
+p1.obj : error LNK2001: unresolved external symbol __imp___Py_TrueStruct
+C:\Users\Anh Viet Nguyen\AppData\Local\Programs\Python\Python36\libs\python36_d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+c:\users\anh viet nguyen\documents\visual studio 2015\Projects\P1\Debug\P1.pyd : fatal error LNK1120: 6 unresolved externals
